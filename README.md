@@ -1,4 +1,6 @@
-![alt text]([http://url/to/img.png](https://github.com/elliotfayman/Pickit/blob/main/assets/pickit_logo.png))
+<p align="center">
+<img src="https://github.com/elliotfayman/Pickit/blob/main/PickIt-2.png" width=75% height=75%>
+</p>
 
 **Calling all hikers!** Turn your hikes into eco-adventures with PickIt! It's a gamified app that tracks your trash collection, transforming cleanup into a friendly competition. Scan trash, earn points based on its environmental impact, climb the leaderboard, and win prizes! Let's work together to keep our trails beautiful and healthy.
 
