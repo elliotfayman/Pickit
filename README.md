@@ -1,69 +1,42 @@
-# Welcome to Reflex!
+![alt text](http://url/to/img.png)
 
-This is the base Reflex template - installed when you run `reflex init`.
+**Calling all hikers!** Turn your hikes into eco-adventures with PickIt! It's a gamified app that tracks your trash collection, transforming cleanup into a friendly competition. Scan trash, earn points based on its environmental impact, climb the leaderboard, and win prizes! Let's work together to keep our trails beautiful and healthy.
 
-If you want to use a different template, pass the `--template` flag to `reflex init`.
-For example, if you want a more basic starting point, you can run:
+## Inspiration
 
-```bash
-reflex init --template blank
-```
+We were inspired by fitness applications that motivate people through points and rewards. We saw an opportunity to apply this concept to environmental cleanup, empowering hikers to make a positive impact while enjoying the outdoors!
 
-## About this Template
+## What it Does
 
-This template has the following directory structure:
+PickIt is a gamified hiking app that encourages eco-friendly behavior:
 
-```bash
-├── README.md
-├── assets
-├── rxconfig.py
-└── {your_app}
-    ├── __init__.py
-    ├── components
-    │   ├── __init__.py
-    │   └── sidebar.py
-    ├── pages
-    │   ├── __init__.py
-    │   ├── dashboard.py
-    │   ├── index.py
-    │   └── settings.py
-    ├── styles.py
-    ├── templates
-    │   ├── __init__.py
-    │   └── template.py
-    └── {your_app}.py
-```
+1. Scan Trash: Find trash on hiking trails and use the app to scan it.
+1. Earn Points: Each scanned item contributes points based on its environmental impact.
+1. Compete and Win: Climb the leaderboard and compete with other hikers in your local community for the most points and prizes.
 
-See the [Project Structure docs](https://reflex.dev/docs/getting-started/project-structure/) for more information on general Reflex project structure.
+## How We Built It
 
-### Adding Pages
+PickIt is built using the following technologies:
 
-In this template, the pages in your app are defined in `{your_app}/pages/`.
-Each page is a function that returns a Reflex component.
-For example, to edit this page you can modify `{your_app}/pages/index.py`.
-See the [pages docs](https://reflex.dev/docs/pages/routes/) for more information on pages.
+- **Reflex:** A powerful framework for building user interfaces.
+- **Gemini:** This large language model helped us research the ecological impact of different types of trash to create an accurate scoring system.
+- **MongoDB:** A flexible NoSQL database for storing user data, trash collection records, and leaderboard information.
+- **Python:** A versatile programming language used for backend development and application logic.
 
-In this template, instead of using `rx.add_page` or the `@rx.page` decorator,
-we use the `@template` decorator from `{your_app}/templates/template.py`.
+## Getting Started
 
-To add a new page:
-
-1. Add a new file in `{your_app}/pages/`. We recommend using one file per page, but you can also group pages in a single file.
-2. Add a new function with the `@template` decorator, which takes the same arguments as `@rx.page`.
-3. Import the page in your `{your_app}/pages/__init__.py` file and it will automatically be added to the app.
-
-
-### Adding Components
-
-In order to keep your code organized, we recommend putting components that are
-used across multiple pages in the `{your_app}/components/` directory.
-
-In this template, we have a sidebar component in `{your_app}/components/sidebar.py`.
-
-### Adding State
-
-As your app grows, we recommend using [substates](https://reflex.dev/docs/substates/overview/)
-to organize your state.
-
-You can either define substates in their own files, or if the state is
-specific to a page, you can define it in the page file itself.
+1. Clone the repository:
+   ```
+   git clone https://github.com/elliotfayman/Pickit/
+   ```
+1. Install dependencies
+   ```
+   pip install -r requirements.txt
+   ```
+1. Run the Application on localhost
+   ```
+   reflex init
+   reflex run
+   ```
+## Contributers
+Elliot Fayman, Henry Nguyen, and Ryan Perez 
