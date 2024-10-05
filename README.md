@@ -41,4 +41,4 @@ PickIt is built using the following technologies:
    reflex run
    ```
 ## Contributers
-Elliot Fayman, Henry Nguyen, and Ryan Perez 
+Elliot Fayman, Henry Nguyen, Ryan Perez, and Rahul Mallick
